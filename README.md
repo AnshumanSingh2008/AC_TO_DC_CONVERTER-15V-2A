@@ -2,7 +2,7 @@
 
 A transformer-based, regulated 15 V / 2 A DC supply designed in KiCad as a learning project. The goal was to recreate a commercial plug-in AC-DC adapter. The design works on paper and passes ERC and DRC, but comparing it with the real adapter showed that a linear supply is the wrong architecture for a compact, low-cost product. This README documents the design and, more importantly, why it was not taken to fabrication.
 
-![PCB 3D view](Docs/Images/pcb-3d-top.png)
+![PCB 3D view](DOCS/IMAGES/pcb-3d-top.png)
 
 ## Project status
 
@@ -87,7 +87,7 @@ For a compact, low-cost 12-15 V / 2 A adapter, a linear supply is the wrong choi
 
 ```
 hardware/       KiCad project (.kicad_pro, .kicad_sch, .kicad_pcb)
-docs/           Schematic PDF, PCB layout PDF, images, notes
+DOCS/           Schematic PDF, PCB layout PDF, IMAGES, notes
 fabrication/    Gerbers, drill files, zip
 ```
 
